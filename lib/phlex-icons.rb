@@ -11,6 +11,7 @@ require_relative 'phlex-icons/version'
 
 require_relative 'phlex-icons/bootstrap'
 require_relative 'phlex-icons/flag'
+require_relative 'phlex-icons/flowbite'
 require_relative 'phlex-icons/hero'
 require_relative 'phlex-icons/lucide'
 require_relative 'phlex-icons/material'

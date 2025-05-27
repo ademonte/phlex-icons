@@ -1,0 +1,29 @@
+# frozen_string_literal: true
+
+module PhlexIcons
+  module Flowbite
+    class ArrowsMinimize < PhlexIcons::Flowbite::Base
+      def solid
+        raise NotImplementedError
+      end
+
+      def outline
+        svg(
+          **attrs,
+          xmlns: 'http://www.w3.org/2000/svg',
+          fill: 'none',
+          viewbox: '0 0 24 24'
+        ) do |s|
+          s.path(
+            stroke: 'currentColor',
+            stroke_linecap: 'round',
+            stroke_linejoin: 'round',
+            stroke_width: '2',
+            d:
+              'M5 9h4m0 0V5m0 4L4 4m15 5h-4m0 0V5m0 4 5-5M5 15h4m0 0v4m0-4-5 5m15-5h-4m0 0v4m0-4 5 5'
+          )
+        end
+      end
+    end
+  end
+end

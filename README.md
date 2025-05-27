@@ -19,7 +19,7 @@ General icons extension for [Phlex](https://phlex.fun). Includes more than 🎨 
 - [RadixUI Icons](https://radix-ui.com/icons) (300+)
 - [Remix Icons](https://remixicon.com) (3,000+)
 - [Tabler Icons](https://tabler.io/icons) (4,900+)
-
+- [Flowbite Icons](https://flowbite.com/icons/) (700+)
 And happy to extend to other icon packs!
 
 If you don't want to add all icon packs to your application, you can add a specific icon pack by using one (or multiple) of the following gems:
@@ -136,6 +136,19 @@ end
 
 PhlexIcons::Tabler.configuration.default_variant = :outline # or :filled
 ```
+
+### Flowbite Icons configuration
+
+```ruby
+PhlexIcons::Flowbite.configure do |config|
+  config.default_variant = :outline # or :solid
+end
+
+# OR
+
+PhlexIcons::Flowbite.configuration.default_variant = :outline # or :solid
+```
+
 
 ## Usage
 
